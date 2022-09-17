@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    margin: 24px 16px;
+    text-transform: uppercase;
+    font-style: italic;
+    display: flex;
+}
+
+header img {
+    width: 24px;
+    height: auto;
+    margin-left: 15px;
+    display: inline;
+}
+
+form {
+    display: flex;
+    margin: 24px 16px;
+    max-width: 220px;
+    justify-content: space-between;
+}
+
+ul li{
+    justify-content: space-between;
+    margin: 10px 32px;
+    max-width: 15%;
+    list-style: decimal;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #0879e9;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0068cf ;
+}
+
